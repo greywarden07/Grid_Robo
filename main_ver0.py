@@ -9,7 +9,7 @@ from datetime import datetime
 from collections import Counter
 
 # Set the environment variable for Google Application Credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ""
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "gen-lang-client-0751335714-ca33e8fe888b.json"
 
 # Set up the Google Cloud Vision client
 client = vision.ImageAnnotatorClient()
